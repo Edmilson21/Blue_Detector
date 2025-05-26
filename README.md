@@ -1,14 +1,19 @@
 # Detector de Color Azul con OpenCV
 
-Este proyecto es una aplicación en Python que utiliza la cámara web para detectar objetos de color azul en tiempo real. Se basa en el uso de OpenCV y NumPy para el procesamiento de imágenes,
-y puede ser fácilmente ejecutado en entornos Linux (como Ubuntu).
+Este proyecto es una aplicación en Python que utiliza la cámara web para detectar objetos de color azul en tiempo real. Se basa en el uso de OpenCV y NumPy para el procesamiento de imágenes, y puede ser fácilmente ejecutado en entornos Linux (como Ubuntu).
+
+---
+
+## 🎥 Video Demostrativo
+
+👉 Mira el funcionamiento del proyecto en el siguiente video:  
+[![Ver en YouTube](https://img.youtube.com/vi/z3OpTpA2WMo/0.jpg)](https://youtu.be/z3OpTpA2WMo)
 
 ---
 
 ## 🧠 Descripción
 
-El script captura imágenes en vivo desde la cámara, las convierte al espacio de color HSV y utiliza un rango específico para detectar el color azul. Una vez detectado,
-se resaltan las áreas azules con un rectángulo verde y se muestra un punto rojo en su centro, junto con las coordenadas en pantalla.
+El script captura imágenes en vivo desde la cámara, las convierte al espacio de color HSV y utiliza un rango específico para detectar el color azul. Una vez detectado, se resaltan las áreas azules con un rectángulo verde y se muestra un punto rojo en su centro, junto con las coordenadas en pantalla.
 
 ---
 
@@ -32,3 +37,4 @@ Asegúrate de tener las siguientes tecnologías instaladas:
 
 ```bash
 pip install opencv-python==4.11.0.86 pytesseract numpy
+
